@@ -1,0 +1,103 @@
+.flex-contenedor {
+    border: 5px solid blue;
+}
+
+.flex-item {
+    margin: 5px;
+    background: deepskyblue;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+/* Display flex ejemplo 1 */
+
+.flex-contenedor2 {
+    border: 5px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.flex-item2 {
+    width: 80px;
+    margin: 15px;
+    background: deepskyblue;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+/* Display flex ejemplo 2 */
+
+.flex-contenedor3 {
+    border: 5px solid blue;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.flex-item3 {
+    width: 80px;
+    margin: 15px;
+    background: deepskyblue;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+
+/* Display flex ejemplo 3 */
+
+.flex-contenedor4 {
+    border: 5px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.flex-item4 {
+    width: 80px;
+    margin: 15px;
+    background: deepskyblue;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+
+/* Ejemplo menu con logo*/
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: deepskyblue;
+}
+
+.logo {
+    margin: 25px;
+}
+
+.logo,
+.menu {
+    text-decoration: none;
+    letter-spacing: 0.45em;
+    font-size: 1.5em;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    display: block;
+    padding: 1em;
+    color: white;
+}
